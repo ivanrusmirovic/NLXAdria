@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Load Tempalte CSS -->
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body>
+    
+    <!-- Start Service -->
+   <section class="bg-light">
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-between">
+                <div class="contact-header col-lg-4">
+                    <h1 class="h2 pb-3 text-primary">Services</h1>
+                    <h2>
+                        NLX Adria offers variety of services to improve your business
+                    </h2>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container overflow-hidden py-5">
+        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project business">
+                <a class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0" asp-area="" asp-controller="ProjectManagement" asp-action="Index">
+                    <img class="service card-img" src="./assets/images/projectmenagment.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span
+                                class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">ProjectManagement - Turn your vision into reality </span>
+                            
+                        </div>
+                                    
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project marketing">
+                <a class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0" asp-area="" asp-controller="DigitalMarketing" asp-action="Index">
+                    <img class="card-img" src="./assets/images/Digitalization1.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Digital Marketing - Go Digital!</span>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project managment">
+                <a  class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0" asp-area="" asp-controller="EventManagment" asp-action="Index">
+                    <img class="card-img" src="./assets/images/services-03.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Event Management - Innovative solutions</span>
+                           
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project managment">
+                <a  class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0" asp-area="" asp-controller="CommuntityManagment" asp-action="Index">
+                    <img class="card-img" src="./assets/images/comunity1 .jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Business consulting - Architect the future</span>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+        </div>
+    </section>
+    <!-- End Service -->
+
+    
+
+     
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function () {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function () {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+    <!-- Templatemo -->
+    <script src="assets/js/templatemo.js"></script>
+    <!-- Custom -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

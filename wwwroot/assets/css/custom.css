@@ -1,0 +1,24 @@
+/*
+Custom CSS for TemplateMo 561 Purple Buzz
+
+https://templatemo.com/tm-561-purple-buzz
+
+*/
+.recent-work .recent-work-vertical{
+    height: 280px!important;
+}
+
+.custom-navbar-brand{
+    width: 200px;
+}
+
+footer {
+    background-color: #81b9b4;
+    text-align: justify;
+} 
+aside {
+    background-color: #81b9b4;
+    text-align: justify;
+}
+
+
