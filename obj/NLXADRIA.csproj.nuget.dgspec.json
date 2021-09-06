@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test\\NLXADRIA\\NLXADRIA.csproj": {}
+    "D:\\New folder (2)\\Test\\NLXADRIA\\NLXADRIA.csproj": {}
   },
   "projects": {
-    "D:\\Test\\NLXADRIA\\NLXADRIA.csproj": {
+    "D:\\New folder (2)\\Test\\NLXADRIA\\NLXADRIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test\\NLXADRIA\\NLXADRIA.csproj",
+        "projectUniqueName": "D:\\New folder (2)\\Test\\NLXADRIA\\NLXADRIA.csproj",
         "projectName": "NLXADRIA",
-        "projectPath": "D:\\Test\\NLXADRIA\\NLXADRIA.csproj",
+        "projectPath": "D:\\New folder (2)\\Test\\NLXADRIA\\NLXADRIA.csproj",
         "packagesPath": "C:\\Users\\Ruzma\\.nuget\\packages\\",
-        "outputPath": "D:\\Test\\NLXADRIA\\obj\\",
+        "outputPath": "D:\\New folder (2)\\Test\\NLXADRIA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
